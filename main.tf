@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "s3_bucket" {
-  bucket = "${var.project_name}-${var.environment}-${var.region}-core-state"
+  bucket = "${company_name}-${var.region}-aws-core-tf-state"
   acl    = var.acl
 
   versioning {
