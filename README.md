@@ -1,2 +1,2 @@
-# terraform-module-aws-core
-Terraform Module that creates platform AWS core session state S3 Bucket
+# terraform-module-aws-tf-state
+Terraform Module to store and lock Terraform AWS state.
