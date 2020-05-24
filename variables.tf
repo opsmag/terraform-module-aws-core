@@ -1,5 +1,5 @@
-variable "company_name" {
-  description = "Company name"
+variable "aws_infrastructure" {
+  description = "Infrastructure name"
   type        = string
 }
 
@@ -26,7 +26,7 @@ variable "acl" {
   default     = ""
 }
 
-variable "region" {
+variable "aws_region" {
   description = "Region code"
   type        = string
 }
