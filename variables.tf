@@ -26,7 +26,7 @@ variable "acl" {
   default     = ""
 }
 
-variable "aws_region" {
+variable "region" {
   description = "Region code"
   type        = string
 }
