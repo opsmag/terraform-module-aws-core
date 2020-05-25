@@ -1,5 +1,5 @@
-variable "aws_infrastructure" {
-  description = "Infrastructure name"
+variable "company_name" {
+  description = "Company name"
   type        = string
 }
 
